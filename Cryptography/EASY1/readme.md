@@ -34,6 +34,7 @@ We notice the following
 <img src="Screenshot 2567-12-14 at 21.19.46.png" alt="alt">
 
 Now our text is `b//VEhDVFQyNHszMjZhYWI2MGY5MTI4YTY3YjYyMDNiMWRiNWNmM2VmZn0=//`
+
 Notice that apart from the prefix `b//` and postfix `//` the remaining 56(divisible by 8) characters are all in Base64
 
 - We can use some regex to replace `b//|//` with empty string to delete them
