@@ -34,9 +34,13 @@ We notice the following
 
 Now our text is `b//VEhDVFQyNHszMjZhYWI2MGY5MTI4YTY3YjYyMDNiMWRiNWNmM2VmZn0=//`
 Notice that apart from the prefix `b//` and postfix `//` the remaining 56(divisible by 8) characters are all in Base64
-We can use some regex to replace `b//|//` with empty string to delete them
+
+- We can use some regex to replace `b//|//` with empty string to delete them
+
 <img src="Screenshot 2567-12-14 at 21.25.00.png" alt="alt">
+
 Then use base64 decode
+
 <img src="Screenshot 2567-12-14 at 21.25.06.png" alt="alt">
 
 The result is now in the format of a flag, we can stop decoding here
