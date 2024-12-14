@@ -23,6 +23,7 @@ The result of this encyrption method should be in the range of `A-Z, a-z,  0-9, 
 
 ### On to the problem
 The encypted flag is `MIXS6VSFNBCFMRSRPFHEQ432JVVFU2CZK5ETETKHLE2U2VCJGRMVIWJTLFVFS6KNIRHGSTKXKJUU4V2ONVGTEVTNLJXDAPJPF4======`
+
 We notice the following
 - The string only contains A-Z, 2-7 and =
 - The string contains ====== padding
