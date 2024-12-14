@@ -40,4 +40,5 @@ Then use base64 decode
 <img src="Screenshot 2567-12-14 at 21.25.06.png" alt="alt">
 
 The result is now in the format of a flag, we can stop decoding here
+
 The flag is `THCTT24{326aab60f9128a67b6203b1db5cf3eff}`
