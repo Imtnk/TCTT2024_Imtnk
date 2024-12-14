@@ -30,3 +30,14 @@ We notice the following
 
  From the clues, this should be the result of base32 encoding -> we need to decode it using base32 first
  > A good tool for this is `cyberchef` : https://gchq.github.io/CyberChef/
+<img src="Screenshot 2567-12-14 at 21.19.46.png" alt="alt">
+
+Now our text is `b//VEhDVFQyNHszMjZhYWI2MGY5MTI4YTY3YjYyMDNiMWRiNWNmM2VmZn0=//`
+Notice that apart from the prefix `b//` and postfix `//` the remaining 56(divisible by 8) characters are all in Base64
+We can use some regex to replace `b//|//` with empty string to delete them
+<img src="Screenshot 2567-12-14 at 21.25.00.png" alt="alt">
+Then use base64 decode
+<img src="Screenshot 2567-12-14 at 21.25.06.png" alt="alt">
+
+The result is now in the format of a flag, we can stop decoding here
+The flag is `THCTT24{326aab60f9128a67b6203b1db5cf3eff}`
